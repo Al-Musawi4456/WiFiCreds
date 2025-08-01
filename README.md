@@ -12,7 +12,7 @@
 
 A secure and modular Arduino library for managing Wi-Fi credentials, designed to prevent accidental exposure of sensitive data when sharing code.
 
-## 🎯 Primary Purpose
+## ?? Primary Purpose
 
 **The main objective of this library is simple: to prevent accidental exposure of Wi-Fi credentials when sharing code.**
 
@@ -29,33 +29,33 @@ This approach ensures that your sensitive network information never gets exposed
 
 ## Features
 
-- 🔒 **Secure Credential Management**: Keeps Wi-Fi credentials separate from main code
-- 🔑 **Multiple Credential Sets**: Support for named credential sets (home, office, etc.)
-- 🎯 **Default Behavior**: First credential set is always used as default
-- 🔄 **Automatic Fallback**: Invalid names automatically fall back to default
-- 📚 **Easy Integration**: Simple static methods for accessing credentials
-- 🛡️ **Validation**: Built-in credential validation
-- 📖 **Well Documented**: Comprehensive [Doxygen](https://me-rk.github.io/WiFiCreds/) documentation
-- 🔧 **Modular Design**: Easy to extend for different storage methods
-- 🎯 **Production Ready**: Follows Arduino library best practices
+- ?? **Secure Credential Management**: Keeps Wi-Fi credentials separate from main code
+- ?? **Multiple Credential Sets**: Support for named credential sets (home, office, etc.)
+- ?? **Default Behavior**: First credential set is always used as default
+- ?? **Automatic Fallback**: Invalid names automatically fall back to default
+- ?? **Easy Integration**: Simple static methods for accessing credentials
+- ??? **Validation**: Built-in credential validation
+- ?? **Well Documented**: Comprehensive [Doxygen](https://me-rk.github.io/WiFiCreds/) documentation
+- ?? **Modular Design**: Easy to extend for different storage methods
+- ?? **Production Ready**: Follows Arduino library best practices
 
 ## Platform Compatibility
 
 The WiFiCreds library is compatible with the following platforms:
 
-- ✅ **ESP32**: Full support with built-in WiFi capabilities
-- ✅ **ESP8266**: Full support with built-in WiFi capabilities  
-- ✅ **Raspberry Pi Pico W**: Full support with built-in WiFi capabilities
-- ✅ **Arduino R4 WiFi**: Full support with built-in WiFi capabilities
-- ✅ **Arduino + ESP8266-01**: Support via SoftwareSerial communication
-- ✅ **Arduino + ESP8266**: Support via ESP8266WiFi library
-- ✅ **Arduino + ESP32**: Support via WiFi library
+- ? **ESP32**: Full support with built-in WiFi capabilities
+- ? **ESP8266**: Full support with built-in WiFi capabilities  
+- ? **Raspberry Pi Pico W**: Full support with built-in WiFi capabilities
+- ? **Arduino R4 WiFi**: Full support with built-in WiFi capabilities
+- ? **Arduino + ESP8266-01**: Support via SoftwareSerial communication
+- ? **Arduino + ESP8266**: Support via ESP8266WiFi library
+- ? **Arduino + ESP32**: Support via WiFi library
 
 ## Installation
 
 ### Arduino Library Manager (Recommended)
 1. Open Arduino IDE
-2. Go to **Tools** → **Manage Libraries**
+2. Go to **Tools** ? **Manage Libraries**
 3. Search for "WiFiCreds"
 4. Click **Install**
 
